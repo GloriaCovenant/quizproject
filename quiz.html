@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/quiz.css">
+    <link rel="stylesheet" href="/js/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="qbx" class="container border px-5 py-5 " >
+        <h1 class="text-center text-info border-info bg-light mb-4 mt-5 border" id="retry"><b>QUIZ</b> </h1><br><br>
+    <div class="" >
+        <h1 class="text-info"><b>Question 1</b> </h1><br>
+        <h3>The percentage of water in the human body is</h3>
+        <ul>
+          <li>A. 65</li>
+          <li>B. 80</li>
+          <li>C. 40</li>
+          <li>D. 70</li>
+        </ul>
+        <div>
+          <input
+            type="text"
+            placeholder="enter answer here" id="quest-1">
+          <button type="submit" onclick="checkbutton()" id="sub">click here</button>
+          <p class="mt-2" id="result1" ></p>
+          
+        </div>
+      </div><br>
+      <div>
+        <h1 class="text-info "> Question 2</h1><br>
+        <h3>Food like pizza, burger and noodles are rich in</h3>
+        <ul>
+          <li>A. carbohydrates</li>
+          <li>B. minerals</li>
+          <li>C. protein</li>
+          <li>D. vitamins</li>
+        </ul>
+        <div>
+          <input
+            type="text"
+            placeholder= "enter answer here" id="quest-2">
+          <button type="submit" onclick="checkbutton2()" id="sub2">click here</button>
+          <p class="mt-2" id="result2"></p>
+        </div>
+      </div><br>
+      <div>
+        <h1 class="text-info"> Question 3</h1><br>
+        <h3>....... provide more than the double energy provided by carbohydrates or proteins in human body</h3>
+        <ul>
+          <li>A. vitamins</li>
+          <li>B. minerals</li>
+          <li>C. starch</li>
+          <li>D. fats</li>
+        </ul>
+        <div>
+          <input
+            type="text"
+            placeholder="enter answer here" id="quest-3">
+          <button type="submit" onclick="checkbutton3()" id="sub3">click here</button>
+          <p class="mt-2" id="result3"></p>
+        </div>
+      </div><br>
+      <div>
+        <h1 class="text-info"> Question 4</h1><br>
+        <h3>....... is essential for forming haemoglobin in the blood</h3>
+        <ul>
+          <li>A. iron</li>
+          <li>B. magnesium</li>
+          <li>C. phosphorus</li>
+          <li>D. calcium</li>
+        </ul>
+        <div>
+          <input
+            type="text"
+            placeholder="enter answer here" id="quest-4">
+          <button type="submit" onclick="checkbutton4()" id="sub4">click here</button>
+          <p class="mt-2" id="result4"></p>
+        </div>
+      </div><br>
+      <div>
+        <h1 class="text-info"> Question 5</h1><br>
+        <h3>The component of food which helps the body fight against infection is</h3>
+        <ul>
+          <li>A. starch</li>
+          <li>B. fats</li>
+          <li>C. protein</li>
+          <li>D. carbohydrates</li>
+        </ul>
+        <div>
+          <input
+            type="text"
+            placeholder="enter answer here" id="quest-5">
+          <button type="submit" onclick="checkbutton5()" id="sub5">click here</button>
+          <p class="mt-2" id="result5"></p>
+        </div>
+      </div><br>
+      <div>
+        <h1 class="text-info"> Question 6</h1><br>
+        <h3>The mineral which controls the functioning of thyroid is</h3>
+        <ul>
+          <li>A. phosphorus</li>
+          <li>B. iodine</li>
+          <li>C. magnesium</li>
+          <li>D. calcium</li>
+        </ul>
+        <div>
+          <input
+            type="text"
+            placeholder="enter answer here" id="quest-6">
+          <button type="submit" onclick="checkbutton6()" id="sub6">click here</button>
+          <p class="mt-2" id="result6"></p>
+        </div>
+      </div><br>
+      <button class="mt-5 bg-info text-light" onclick="calculate()">check result</button>
+      <span class="text-primary" id="finalscore"></span> <br><br>
+     <button class="bg-white "><a onclick="home()" href="/index.html">X</a></h3></button>
+    </div>
+  
+            
+     <script src="/js/quiz.js"></script>      
+           
+     </body>
+
+
+
+
+
+
+
+
+
+</html>
